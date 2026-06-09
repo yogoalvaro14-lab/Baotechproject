@@ -6,6 +6,7 @@
   <title>Professional Profile - Yogo Bekol Alvaro Dimitri</title>
   <meta name="description" content="Welcome to my professional portfolio website, showcasing my experience, skills, and background">
   <link rel="icon" href="favicon.ico.png" sizes="any">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -20,11 +21,17 @@
   </header>
 
   <main>
-    <section id="about">
+    <div class="row">
+    <section id="about" class="section card">
       <h2>About Me</h2>
+      
       <p>Student at IUGET.</p>
       
-      <img src="file:///c:/Users/Administrateur/Downloads/Gemini_Generated_Image_hbnlm2hbnlm2hbnl.png" alt="Alvaro Dimitri profile" width="145" height="150" loading="lazy">
+      <img src="file:///c:/Users/Administrateur/Downloads/Gemini_Generated_Image_hbnlm2hbnlm2hbnl.png" class="profile-img",
+       alt="Alvaro Dimitri profile" 
+       width="145" 
+       height="150" 
+       loading="lazy">
       
       <p>
         I am an ambitious student and aspiring data professional dedicated to transforming raw numbers into clear, actionable insights. Through my academic studies and self-directed learning, I have built a foundational toolkit in SQL, web programming, and algorithms. Currently, I am focused on mastering 
@@ -32,24 +39,24 @@
         <em>launch my career as a Junior Data Analyst and steadily grow into a Senior Analyst or Analytics Manager role, where I can lead data strategy and bridge the gap between technical metrics and everyday business decisions</em>.
       </p>
 
-      <p>I am a hardworking person, <strong>determined</strong>, and I always think positively.</p>
-      <p>Include your goal: <em>becoming a Data Analyst</em>.</p>
-      <p>I learn <abbr title="HyperText Markup Language">HTML</abbr> because <dfn>frontend</dfn> is one of my paths.</p>
-      <p>Target date: <time datetime="2026-08-01">December 2026</time>.</p>
+      <p   class="highlight">I am a hardworking person, <strong>determined</strong>, and I always think positively.</p>
+      <p class="highlight">Include your goal: <em>becoming a Data Analyst</em>.</p>
+      <p class="highlight">I learn <abbr title="HyperText Markup Language">HTML</abbr> because <dfn>frontend</dfn> is one of my paths.</p>
+      <p class="highlight">Target date: <time datetime="2026-08-01">December 2026</time>.</p>
       <hr>
       
       <details>
         <summary>More about me</summary>
-        <p>Extra hobbies or fun facts here.</p>
-        <p> generous☻, jovial personne☺, frienship personne, </p>
-        <p>i like sport especially football, i like food♥</p>
+        <p class="highlight">Extra hobbies or fun facts here.</p>
+        <p class="highlight"> generous☻, jovial personne☺, frienship personne, </p>
+        <p class="highlight">i like sport especially football, and  i also like food♥</p>
       </details>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="section card">
       <h2>Skills</h2>
       <p>Web programming - Programming - Database</p>
-      <ul>
+      <ul class="skills-grid">
         <li>Web programming</li>
         <li>Database</li>
         <li>Programming</li>
@@ -64,7 +71,7 @@
       
       <figure>
         <img src="profile.jpg.png" alt="I am a young engineering student" width="240" height="240" loading="lazy" decoding="async">
-        <figcaption>Photo of me</figcaption>
+        <figcaption>Photo of me</figcaption> 
       </figure>
 
       <p>Course progress: <progress value="65" max="100">65%</progress></p>
@@ -72,8 +79,9 @@
 
       <h3>Tutorial Resource</h3>
       <iframe
-        <iframe 
-        src="https://www.youtube.com/embed/FQdaUv95mR8?si=HR0sTj3CpVV2s3jD"
+        <iframe
+        <div class="row"
+       src="https://www.youtube.com/embed/FQdaUv95mR8?si=HR0sTj3CpVV2s3jD">
          title="YouTube video player"
         width="560" 
         height="315" 
@@ -84,7 +92,7 @@
           </iframe>
       </iframe>
 
-      <table>
+      <table class="data-table">
         <caption>My study schedule</caption>
         <colgroup>
           <col>
@@ -115,11 +123,11 @@
       </table>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="section card">
       <h2>Contact</h2>
       <p>Phone: 698-27-35-30</p>
       
-      <form action="#" method="get">
+      <form action="#" method="get" class="contact-form">
         <fieldset>
           <legend>Contact me</legend>
           <p>
