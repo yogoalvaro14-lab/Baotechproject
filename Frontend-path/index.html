@@ -1,0 +1,197 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Profile - Yogo Bekol Alvaro Dimitri</title>
+  <meta name="description" content="Welcome to my professional portfolio website, showcasing my experience, skills, and background">
+  <link rel="icon" href="favicon.ico.png" sizes="any">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <section class="hero">
+    <h1>Welcome to my site</h1>
+    <p>A short sentence about you.</p>
+    <a class="hero-btn" href="#about">Learn more</a>
+  </section>
+
+  <header>
+    <h1>YOGO BEKOL ALVARO DIMITRI</h1>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN HTML docs</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="row">
+      <section id="about" class="section card">
+        <h2>About Me</h2>
+        
+        <p>Student at IUGET.</p>
+        
+        <!-- CORRIGÉ : Ajout du '>' manquant pour fermer l'image -->
+        <img src="file:///c:/Users/Administrateur/Downloads/Gemini_Generated_Image_hbnlm2hbnlm2hbnl.png" class="profile-img"
+             alt="Alvaro Dimitri profile" 
+             width="145" 
+             height="150" 
+             loading="lazy">
+
+        <p>
+          I am an ambitious student and aspiring data professional dedicated to transforming raw numbers 
+          into clear, actionable insights. Through my academic studies and self-directed learning, I have 
+          built a foundational toolkit in SQL, web programming, and algorithms. Currently, I am 
+          focused on mastering 
+          <strong>data cleaning</strong>, 
+          <strong>storytelling</strong>, and 
+          <strong>dashboard creation</strong> through hands-on projects and academic coursework. 
+          My ultimate career goal is to 
+          <em>launch my career as a Junior Data Analyst and steadily grow into a Senior Analyst or 
+          Analytics Manager role, where I can lead data strategy and bridge the gap between technical 
+          metrics and everyday business decisions</em>.
+        </p>
+
+        <p class="highlight">I am a hardworking person, <strong>determined</strong>, and I always think positively.</p>
+        <p class="highlight">Include your goal: <em>becoming a Data Analyst</em>.</p>
+        <p class="highlight">I learn <abbr title="HyperText Markup Language">HTML</abbr> because <dfn>frontend</dfn> is one of my paths.</p>
+        <p class="highlight">Target date: <time datetime="2026-08-01">December 2026</time>.</p>
+        <hr>
+        
+        <details>
+          <summary>More about me</summary>
+          <p class="highlight">Extra hobbies or fun facts here.</p>
+          <p class="highlight"> generous☻, jovial personne☺, frienship personne, </p>
+          <p class="highlight">i like sport especially football, and  i also like food♥</p>
+        </details>
+      </section>
+
+      <section id="skills" class="section card">
+        <h2>Skills</h2>
+        <p>Web programming - Programming - Database</p>
+        <ul class="skills-grid">
+          <li>Web programming</li>
+          <li>Database</li>
+          <li>Programming</li>
+        </ul>
+        
+        <h3>Learning Plan</h3>
+        <ol>
+          <li>Finish HTML module</li>
+          <li>Learn CSS</li>
+          <li>Learn JavaScript</li>
+        </ol>
+        
+        <figure>
+          <img src="profile.jpg.png" alt="I am a young engineering student" width="240" height="240" loading="lazy" decoding="async">
+          <figcaption>Photo of me</figcaption> 
+        </figure>
+
+        <p>Course progress: <progress value="65" max="100">65%</progress></p>
+        <p data-module="html-1" title="HTML Module 1 portfolio">Portfolio page status: In progress</p>
+
+        <h3>Tutorial Resource</h3>
+      
+        <iframe
+          src="https://www.youtube.com/embed/FQdaUv95mR8?si=HR0sTj3CpVV2s3jD"
+                
+  title="YouTube video player"
+  style="width: 100%; max-width: 560px; aspect-ratio: 16 / 9; border: none;"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
+        <table class="data-table">
+          <caption>My study schedule</caption>
+          <colgroup>
+            <col>
+            <col>
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Focus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Monday</th>
+              <td>HTML practice</td>
+            </tr>
+            <tr>
+              <th scope="row">Tuesday</th>
+              <td>HTML tables</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row">Total</th>
+              <td>2 days planned</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section id="contact" class="section card">
+        <h2>Contact</h2>
+        <p>Phone: 698-27-35-30</p>
+        
+        <form action="#" method="get" class="contact-form">
+          <fieldset>
+            <legend>Contact me</legend>
+            <p>
+              <label for="name">Name</label>
+              <input type="text" id="id" name="name" required minlength="2" maxlength="80" placeholder="Your full name">
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </p>
+            <p>
+              <label for="country">Country</label>
+              <select id="country" name="country" required>
+                <option value="">Choose...</option>
+                <optgroup label="Central Africa">
+                  <option value="cm">Cameroon</option>
+                </optgroup>
+                <optgroup label="West Africa">
+                  <option value="ng">Nigeria</option>
+                </optgroup>
+              </select>
+            </p>
+            <p>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required minlength="10" placeholder="Your message"></textarea>
+            </p>
+            <p>
+              <output name="reply-hint" for="message">Typical reply: within 24 hours</output>
+            </p>
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+          </fieldset>
+        </form>
+      </section>
+    </div> <!-- CORRIGÉ : Fermeture manquante de la div class="row" -->
+  </main>
+
+  <footer>
+    <address>
+      <a href="mailto:yogoalvaro14@gmail.com">Email me</a><br>
+      <a href="tel:+237698273530">Call me</a>
+    </address>
+    <p><a href="resume.pdf" download>Download my resume</a></p>
+    <p>&copy; 2026</p>
+    <p>&copy; <span id="year"></span> yogo bekol</p>
+  </footer>
+
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
